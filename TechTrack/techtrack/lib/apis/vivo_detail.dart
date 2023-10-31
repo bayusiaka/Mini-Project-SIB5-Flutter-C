@@ -22,9 +22,9 @@ class _DetailVivoState extends State<DetailVivo> {
         Provider.of<BookmarkProvider>(context, listen: false);
     final bookmarkProduct = BookmarkProduct(
       id: widget.product['id'].toString(),
-      name: widget.product['phone_name'], // Mengganti 'name' ke 'phone_name'
+      name: widget.product['phone_name'],
       description: widget.product['description'],
-      imageLink: widget.product['image_url'], // Mengganti 'image_link' ke 'image_url'
+      imageLink: widget.product['image_url'],
     );
 
     if (isFavorite) {
@@ -94,7 +94,7 @@ class _DetailVivoState extends State<DetailVivo> {
                 height: 20,
               ),
               Text(
-                widget.product['phone_name'], // Mengganti 'name' ke 'phone_name'
+                widget.product['phone_name'],
                 style: GoogleFonts.poppins(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
@@ -104,14 +104,14 @@ class _DetailVivoState extends State<DetailVivo> {
                 height: 3,
               ),
               Text(
-                widget.product['brand_name'], // Tambahkan baris ini
+                widget.product['brand_name'],
                 style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.w600),
               ),
               const SizedBox(
                 height: 15,
               ),
               Text(
-              'Product Description:', // Tambahkan baris ini
+              'Product Description:',
               style: GoogleFonts.poppins(
               fontSize: 14,
               fontWeight: FontWeight.w600,

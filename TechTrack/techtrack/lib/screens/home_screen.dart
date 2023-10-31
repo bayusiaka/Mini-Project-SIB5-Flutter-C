@@ -99,7 +99,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                   ),
-                  // Image slider
                   CarouselSlider(
                     options: CarouselOptions(
                       height: 150.0,
@@ -108,8 +107,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       enableInfiniteScroll: true,
                       enlargeCenterPage: true,
                       scrollDirection: Axis.horizontal,
-                      autoPlay: true, // Enable auto-scroll
-                      autoPlayInterval: const Duration(seconds: 3), // Adjust the interval
+                      autoPlay: true,
+                      autoPlayInterval: const Duration(seconds: 3),
                       autoPlayAnimationDuration: const Duration(milliseconds: 800),
                     ),
                     items: [

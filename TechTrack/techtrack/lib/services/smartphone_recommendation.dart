@@ -12,7 +12,7 @@ class SmartphoneRecommendationService {
       _dio.options = BaseOptions(
         baseUrl: 'https://api.openai.com/v1/chat/',
         headers: {
-          'Authorization': 'Bearer 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', // Ganti YOUR_API_KEY dengan API Key Anda
+          'Authorization': 'Bearer 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',
         },
       );
 

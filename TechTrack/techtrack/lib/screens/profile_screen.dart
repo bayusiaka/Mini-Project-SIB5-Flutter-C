@@ -162,8 +162,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 ListTile(
                                   title: Text('Log Out "${user?.usrName ?? widget.username}"'),
                                   onTap: () {
-                                Navigator.pop(context); // Tutup bottom sheet
-                                showLogoutDialog(context); // Tampilkan dialog logout
+                                Navigator.pop(context);
+                                showLogoutDialog(context);
                                   },
                                 ),
                               ],

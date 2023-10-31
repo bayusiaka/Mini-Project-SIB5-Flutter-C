@@ -54,7 +54,7 @@ class _GoogleApiState extends State<GoogleApi> {
         navigateToProductDetail(context, item);
       },
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 10), // Memberikan jarak 20 dari semua sisi
+        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 10),
         child: Container(
           width: 180,
           height: 300,
@@ -71,7 +71,7 @@ class _GoogleApiState extends State<GoogleApi> {
             ],
           ),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start, // Membuat "phone name" dan "brand name" menjadi rata kiri
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
                 height: 160,
