@@ -1,6 +1,4 @@
-// ignore: depend_on_referenced_packages
 import 'package:path/path.dart';
-// ignore: depend_on_referenced_packages
 import 'package:sqflite/sqflite.dart';
 import 'package:techtrack/models/user_model.dart';
 
